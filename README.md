@@ -1,5 +1,4 @@
-# gcedpe
-Green Data Projectes d'Enginyeria
+# Green Data
 
 Code for the Green Data project, containing:
 
