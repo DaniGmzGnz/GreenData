@@ -1,0 +1,4 @@
+Color logo huella:  #94e47c
+Fotos expertos: #148770
+Pastel claro: #a3d0b5
+Pastel claro 2: #c7e8c4

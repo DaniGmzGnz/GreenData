@@ -1,0 +1,223 @@
+
+.style{
+    margin: 25px;
+    
+}
+
+
+Form {
+    align-content: center;
+}
+
+.style label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.style aside {
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+.style section {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 210%;
+    border-bottom: 1.5px solid black;
+    /* background-color: #c7e8c4; */
+    margin: 2% 5%;
+    padding: 1.5% 0%;
+    margin-bottom: 4%;
+}
+
+.label{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    margin:0% 5%;
+    margin-left: 70px;
+}
+
+.first-input{
+    background-color: rgb(243, 249, 235);
+    border: rgb(243, 249, 235);
+    border-bottom: 1.5px solid #7cc397;
+    align-self: center;
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 5px;
+}  
+
+.first-input:focus{
+    outline: none;
+}
+
+.box-facturas{
+    background-color: #94d8ae;
+    /* border: 1.5px solid black; */
+    border-radius: 5px;
+    padding: 5% 8%;
+    align-self: center;
+    justify-content: flex-end;
+    margin-left: 9%;
+    margin-right: 70px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Facturas{
+    padding: 5%;
+    margin-bottom: 0px;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+}
+
+[type="file"] {
+    height: 0;  
+    width: 0;
+    overflow: hidden;
+  }
+[type="file"] + label {
+    font-family: sans-serif;
+    background: rgb(243, 249, 235);
+    padding: 10px 30px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+[type="file"] + label:hover {
+    background-color: #fff;
+    color: #678c76;
+    border: 1.5px solid #678c76;
+  }
+
+#img-preview {
+    display: none; 
+    width: 155px;   
+    border: 2px dashed #333;  
+    margin-bottom: 20px;
+  }
+  #img-preview img {  
+    width: 100%;
+    height: 155px; 
+    display: block;  
+    align-self: center; 
+  }
+
+.tables{
+    width: 80%;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tables p {
+    text-align: justify;
+    padding: 2% 1%;
+}
+
+.table-input{
+    background-color: #94d8ae;
+    border: 1.5px solid #94d8ae;
+    border-radius: 5px;
+    align-self: center;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.table-button{
+    cursor: pointer;
+    background-color: rgb(243, 249, 235);
+    border: 1.25px solid rgb(243, 249, 235);
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 7px 5px -10px 5px;
+    padding: 1%;
+    align-self: flex-end;
+    transition: all 0.2s;
+}
+
+.table-button:hover{
+    background-color: #fff;
+    color: #7eab90;
+    border: 1.5px solid #7eab90;
+}
+
+.table-input:focus{
+    outline: none;
+}
+
+
+.subtitulo-input{
+    color: black;
+    flex-direction: column;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-bajo{
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.box-notes{
+    display: flex;
+    align-self: flex-start;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    padding: 0% 5%;
+    margin-left: 12%;
+}
+
+.notes{
+    display: flex;
+    background-color: rgb(243, 249, 235);
+    border: rgb(243, 249, 235);
+    border-bottom: 1.5px solid #7cc397;
+    height: 20px;
+    width: 400px;
+}
+.notes:focus{
+    outline: none;
+}
+
+.submit_button {
+    padding: 7.5% 20%;
+    margin-right: 12%;
+    margin-top: 8%;
+    align-self: center;
+    font-size: 140%;
+    background-color: #94d8ae;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-weight:600;
+    transition: all 0.2s;
+}
+
+.submit_button:hover{
+    background-color: #fff;
+    color: #7eab90;
+    border: 1.5px solid #7eab90;
+}
+
+.submit_button:focus{
+    background-color: #7eab90;
+}

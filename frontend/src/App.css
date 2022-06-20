@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #7cc397bd, #70a36bcb, #26af94ab);
+    animation: gradient 15s ease infinite;
+    font-family: sans-serif;
+    height: 100vh;
+    font: 1em sans-serif;
+    margin: 15px;
+    background-size: 580% 580%;
+  }
+  
+ 
+ 
+  /* Animated background */
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+ 
+ 

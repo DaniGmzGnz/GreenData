@@ -1,0 +1,42 @@
+;Measures electricity;Measures fuel;Measures gas
+0.0;"Empty DataFrame
+Columns: []
+Index: []";"   Num_vehicles Type_fuel  Quant_fuel  Partial_emissions
+4             1        B7       395.0           0.974465
+0             1        E5       756.0           1.648080
+2             1        E5       144.0           0.313920
+5             1        E5       110.4           0.240672
+1             1       E10       289.0           0.596785";"   Year    Type_fuel  Quant_fuel Units  Emission_factor  Partial_emissions
+0  2019  gas natural      8512.0   kwh         0.000182           1.549184"
+0.25;"   Year               Elect_company  Consum (kWh)  Emission_factor  Partial_emissions
+0  2019  IBERDROLA CLIENTES, S.A.U.  12351.073125           0.0002           2.470215";"   Num_vehicles Type_fuel  Quant_fuel  Partial_emissions
+4             1        B7       395.0           0.974465
+0             1        E5       756.0           1.648080
+2             1        E5       144.0           0.313920
+5             1        E5       110.4           0.240672
+1             1       E10       289.0           0.596785";"   Year    Type_fuel  Quant_fuel Units  Emission_factor  Partial_emissions
+0  2019  gas natural      8512.0   kwh         0.000182           1.549184"
+0.5;"   Year               Elect_company  Consum (kWh)  Emission_factor  Partial_emissions
+0  2019  IBERDROLA CLIENTES, S.A.U.         20000           0.0002                4.0";"   Num_vehicles Type_fuel  Quant_fuel  Partial_emissions
+4             1        B7       395.0           0.974465
+0             1        E5       756.0           1.648080
+2             1        E5       144.0           0.313920
+5             1        E5       110.4           0.240672
+1             1       E10       289.0           0.596785";"   Year    Type_fuel  Quant_fuel Units  Emission_factor  Partial_emissions
+0  2019  gas natural      8512.0   kwh         0.000182           1.549184"
+0.75;"   Year               Elect_company  Consum (kWh)  Emission_factor  Partial_emissions
+0  2019  IBERDROLA CLIENTES, S.A.U.         20000           0.0002                4.0";"   Num_vehicles Type_fuel  Quant_fuel  Partial_emissions
+4             1        B7       395.0           0.974465
+0             1        E5       756.0           1.648080
+2             1        E5       144.0           0.313920
+5             1        E5       110.4           0.240672
+1             1       E10       289.0           0.596785";"   Year    Type_fuel  Quant_fuel Units  Emission_factor  Partial_emissions
+0  2019  gas natural      8512.0   kwh         0.000182           1.549184"
+1.0;"   Year               Elect_company  Consum (kWh)  Emission_factor  Partial_emissions
+0  2019  IBERDROLA CLIENTES, S.A.U.         20000           0.0002                4.0";"   Num_vehicles Type_fuel  Quant_fuel  Partial_emissions
+4             1        B7       395.0           0.974465
+0             1        E5       756.0           1.648080
+2             1        E5       144.0           0.313920
+5             1        E5       110.4           0.240672
+1             1       E10       289.0           0.596785";"   Year    Type_fuel  Quant_fuel Units  Emission_factor  Partial_emissions
+0  2019  gas natural      8512.0   kwh         0.000182           1.549184"

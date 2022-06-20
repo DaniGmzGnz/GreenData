@@ -1,0 +1,109 @@
+
+.main-recommend {
+    background-color: rgb(243, 249, 235);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    size: 300%;
+}
+
+.box{
+    display: block;
+    text-align: center;
+}
+
+.box p{
+    padding-top: 2%;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+
+.box-recommend{
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+
+
+/* CARDS CSS */
+
+.Cards{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+}
+
+.parentContainer{
+    width: 100%;
+}
+
+.CompactCard{
+    display: flex;
+    color: black;
+    padding: 3%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1.5px solid #7cc397;
+    cursor: pointer;
+}
+
+.CompactCard:hover{
+    border: 2px solid #7cc397;
+    font-size: 110%;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CompactCard>.box-scope-r>span{
+    color: #7cc397;
+    font-weight: 600;
+    font-size: 250%;
+    margin: auto;
+}
+.CompactCard>.box-scope-r>img{
+    margin: auto;
+}
+
+.box-scope-r{
+    width:30%;
+    display: flex;
+    /* margin-right: 5%; */
+}
+
+.measures{
+    width: 70%;
+    text-align: justify;
+    flex-direction: row;
+    
+    border-left: 1.5px solid #7cc397;
+    padding: 3%;
+}
+
+.ExpandedCard{
+    position: static;
+    height: 80vh;
+    width: 96.5%;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    padding: 1rem;
+    background-color: #7cc397;
+    border-radius: 20px;
+    border: 1.5px solid white;
+}
+
+
+
+.end-recommend{
+    height: 10vh;
+
+}

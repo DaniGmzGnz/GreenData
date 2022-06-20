@@ -1,0 +1,8 @@
+Name_inst;Num_vehicles;Type_vehicles;Type_fuel;Option;Quant_fuel;Consum (l/100km);Km_traveled
+;1;Interno;E5;1;756;;
+;1;Interno;E10;1;289;;
+;1;Interno;E5;0;;6;2400
+;1;Externo;E85;1;394;;
+;1;Interno;B7;0;;7.9;5000
+;1;Interno;E5;1;110.4;;
+;1;Externo;E85;1;79;;

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32584319.css",
+    "main.js": "/static/js/main.ed595082.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/planet-earth2.png": "/static/media/planet-earth2.f53eae396005420c2a07.png",
+    "static/media/interface.png": "/static/media/interface.f7f165ef0e02e134a2e0.png",
+    "static/media/logo-2.png": "/static/media/logo-2.dbf7f2b1f100d1f20614.png",
+    "static/media/dataanalytics.png": "/static/media/dataanalytics.803a5a95e474911889f9.png",
+    "static/media/footprint.png": "/static/media/footprint.8dc75f51c0b218eb8726.png",
+    "static/media/fprint.svg": "/static/media/fprint.56e5e389f804d1d9a4101325fc767fc8.svg",
+    "static/media/cloud.png": "/static/media/cloud.27277b29aabbbe350524.png",
+    "static/media/gris.svg": "/static/media/gris.74cac308d8fe7dc26231bf3a5020afc1.svg",
+    "index.html": "/index.html",
+    "main.32584319.css.map": "/static/css/main.32584319.css.map",
+    "main.ed595082.js.map": "/static/js/main.ed595082.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32584319.css",
+    "static/js/main.ed595082.js"
+  ]
+}
