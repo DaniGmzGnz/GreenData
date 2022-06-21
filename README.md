@@ -14,14 +14,14 @@ Tutorial for this web's setup: https://towardsdatascience.com/build-deploy-a-rea
 It is preferable to create a new virtual environment to avoid dependency errors.
 To do this create a new environment called "venv" on the top directory with the packages in "requirements.txt", in linux:
 
- - cd gcedpe
+ - cd greendata
  - python3 -m venv venv
  - source venv/bin/activate
  - pip install -r requirements.txt
 
 ### HOW TO RUN SOME OF THE API SCRIPTS
 
- - cd gcdepe
+ - cd greendata
  - source venv/bin/activate
  - cd api
  - python
@@ -35,7 +35,7 @@ From here you can run whatever module you need, to run main for example:
 
 To train a new model do:
 
- - cd gcedpe
+ - cd greendata
  - python -m api.model.modelo
 
 ### HOW TO RUN WEB LOCALLY
@@ -43,14 +43,14 @@ To train a new model do:
 You will need to run two terminals, one for backend and one for frontend.
 
 To run backend on linux:
- - cd gcedpe
+ - cd greendata
  - source venv/bin/activate
  - flask run
 
 To check it works open http://localhost:5000/flask/hello on a browser.
 
 To run frontend:
- - cd gcedpe/frontend
+ - cd greendata/frontend
  - npm start
 
 A window with the webpage on localhost:3000 should open after a while.
